@@ -1,0 +1,20 @@
+section.feature {
+    width: 20%;
+}
+
+.illustration_slide {
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+  section.feature {
+    width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  section.feature {
+    width: 100%;
+  }
+}
